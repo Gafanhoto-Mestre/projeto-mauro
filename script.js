@@ -10,7 +10,7 @@ window.document.getElementById('pr')
     if (hora >= 0 && hora < 12){
         img.src = 'manha.png'
         document.body.style.background = '#d1b384'
-        pr.innerHTML = "Bom dia 🙌! Você está no período da manhã"
+        peri.innerHTML = "Bom dia 🙌! Você está no período da manhã"
     } else if (hora >= 12 && hora <= 18){
         img.src = 'tarde.png'
         document.body.style.background = '#8b7b3b'
