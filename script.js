@@ -17,6 +17,6 @@ function carregar(){
     } else {
         img.src = 'noite.png'
         document.body.style.background = '#1f2212c4'
-        peri.innerHTML = "Boa noite 😴! Você está no período da noite."
+        peri.innerHTML = "Boa noite 😴😴! Você está no período da noite."
     }
 }
