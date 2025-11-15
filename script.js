@@ -9,14 +9,14 @@ function carregar(){
     if (hora >= 0 && hora < 12){
         img.src = 'manha.png'
         document.body.style.background = '#d1b384'
-        peri.innerHTML = "Bom dia 🥱! Você está no período da manhã."
+        peri.innerHTML = "Bom dia 🥱!</br>Você está no período da manhã."
     } else if (hora >= 12 && hora <= 18){
         img.src = 'tarde.png'
         document.body.style.background = '#8b7b3b'
-        peri.innerHTML = "Boa tarde 😎! Você está no período da tarde."
+        peri.innerHTML = "Boa tarde 😎!</br>Você está no período da tarde."
     } else {
         img.src = 'noite.png'
         document.body.style.background = '#1f2212c4'
-        peri.innerHTML = "Boa noite 😴! Você está no período da noite."
+        peri.innerHTML = "Boa noite 😴!</br>Você está no período da noite."
     }
 }
