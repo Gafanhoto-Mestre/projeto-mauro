@@ -2,7 +2,6 @@ body {
     background: lab(62.96% 4.68 -46.03);
     font: normal 15pt Arial;
 }
-
 header {
     color: white;
     text-align: center;
@@ -12,9 +11,13 @@ section {                   /* -> Tipo um container */
     background: white;    /* -> Cor de fundo */
     border-radius: 10px;    /* -> Bordas arredondadas */
     padding: 15px;          /* -> Espaçamento em todas as direções */
-    width: 500px;           /* -> Largura da caixa */
+    width: 470px;           /* -> Largura da caixa */
     margin: auto;           /* -> Centralizar a section (caixa) */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.381);
+}
+
+h1#vid{
+    font-family: cursive;
 }
 
 div {
