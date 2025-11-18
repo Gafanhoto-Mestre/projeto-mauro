@@ -1,3 +1,4 @@
+
 function carregar(){
     var msg = window.document.getElementById('msg')
     var img = window.document.getElementById('imagem')
@@ -5,10 +6,11 @@ function carregar(){
     var data =  new Date()
     var hora = data.getHours()
     var min = data.getMinutes()
+    hora = 19
     msg.innerHTML = `Agora são ${hora}:${min} hs.`
     if (hora >= 0 && hora < 12){
         img.src = 'manha.png'
-        document.body.style.backgroundImage = 'linear-gradient(to top,#D0B27C, #EDD5B8)'
+        document.body.style.backgroundImage = 'linear-gradient(to top, #EDD5B8,#D0B27C)'
         peri.innerHTML = "Bom dia 🥱!</br>Você está no período da manhã."
     } else if (hora >= 12 && hora < 18){
         img.src = 'tarde.png'
