@@ -1,11 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
 body {
     background: lab(62.96% 4.68 -46.03);
     font: normal 15pt Arial;
 }
 
 header {
+    padding: 8px;
     color: white;
     text-align: center;
+}
+h1#siti{
+    font-family: "Bungee Spice", sans-serif;
+    font-size: 27px;
 }
 
 section {                   /* -> Tipo um container */
