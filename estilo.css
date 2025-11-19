@@ -6,8 +6,13 @@ body {
     font: normal 15pt Arial;
 }
 header {
+    padding: 8px;
     color: white;
     text-align: center;
+}
+h1#siti{
+    font-family: "Bungee Spice", sans-serif;
+    font-size: 27px;
 }
 
 section {                   /* -> Tipo um container */
