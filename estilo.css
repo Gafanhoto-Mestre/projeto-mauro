@@ -18,8 +18,14 @@ h1#siti{
 section {                   /* -> Tipo um container */
     background: #edd5b8a8;    /* -> Cor de fundo */
     border-radius: 10px;    /* -> Bordas arredondadas */
+<<<<<<< Updated upstream
     min-width: 300px;       /* -> Largura da caixa */
     max-width: 500px;
+=======
+    padding: 15px;          /* -> Espaçamento em todas as direções */
+    min-width: 300px;           /* -> Largura da caixa */
+    max-width: 300px;
+>>>>>>> Stashed changes
     margin: auto;           /* -> Centralizar a section (caixa) */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.381);
 }
