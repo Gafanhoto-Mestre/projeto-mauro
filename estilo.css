@@ -28,9 +28,21 @@ section {                   /* -> Tipo um container */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.381);
 }
 
-.vid{
-    margin: auto;
+div.video{
     width: 100%;
+    height: 200px;
+    background-color: chartreuse;
+    position: relative; 
+    padding-bottom: 59%;
+
+}
+
+div.video > iframe{
+    position: absolute; 
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
 }
 
 h1#vid{
@@ -41,7 +53,7 @@ h1#vid{
 
 div {
     text-align: center;
-    padding: 5px;
+    padding: 2px;
 }
 
 footer {
