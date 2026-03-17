@@ -15,34 +15,17 @@ h1#siti{
     font-size: 27px;
 }
 
-section {                   /* -> Tipo um container */
+section {                        /* -> Tipo um container */
     background: #edd5b8a8;    /* -> Cor de fundo */
-    border-radius: 10px;    /* -> Bordas arredondadas */
-    min-width: 300px;       /* -> Largura da caixa */
+    border-radius: 10px;       /* -> Bordas arredondadas */
+    min-width: 300px;         /* -> Largura da caixa */
     max-width: 500px;
 
-    padding: 15px;          /* -> Espaçamento em todas as direções */
+    padding: 15px;               /* -> Espaçamento em todas as direções */
     min-width: 300px;           /* -> Largura da caixa */
     max-width: 300px;
-    margin: auto;           /* -> Centralizar a section (caixa) */
+    margin: auto;             /* -> Centralizar a section (caixa) */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.381);
-}
-
-div.video{
-    width: 100%;
-    height: 200px;
-    background-color: chartreuse;
-    position: relative; 
-    padding-bottom: 59%;
-
-}
-
-div.video > iframe{
-    position: absolute; 
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100%;
 }
 
 h1#vid{
@@ -51,9 +34,13 @@ h1#vid{
     
 }
 
+div.video{
+    width: 100%;
+}
+
 div {
     text-align: center;
-    padding: 2px;
+    padding: 5px;
 }
 
 footer {
