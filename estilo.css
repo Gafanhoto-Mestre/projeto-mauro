@@ -7,10 +7,6 @@ body {
     text-align: center;
 }
 
-div#principal{
-    position: relative;
-}
-
 h1#siti{
     font-family: "Bungee Spice", sans-serif;
     font-size: 27px;
@@ -19,7 +15,7 @@ h1#siti{
 section {                        /* -> Tipo um container */
     background: #edd5b8a8;    /* -> Cor de fundo */
     border-radius: 10px;       /* -> Bordas arredondadas */
-    min-width: 285px;         /* -> Largura da caixa */
+    min-width: 300px;         /* -> Largura da caixa */
     max-width: 500px;
     padding: 15px;               /* -> Espaçamento em todas as direções */
     margin: auto;             /* -> Centralizar a section (caixa) */
@@ -31,33 +27,26 @@ h1#vid{
     font-size: 27px; 
 }
 
-#container{
+#caixa{
     position: relative;
-    min-height: 315px;
-    max-width: 285px;
-
+    height: 300px;
+    width: 300px;
+    padding: 10px;
     background-color: blue;
+    margin: auto;
 }
 
 #conteudo{
     position: absolute;
-    height: 345px;
-    width: 315px;
-    background-color: chocolate;
-    border-radius: 10px;
-    left: 0%;
-    top: 0%;
+    height: 300px;
+    width: 300px;
+    background-color: chartreuse;
 
-    
-    
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
 }
-
-iframe{
-    border-radius: 10px;
-    height: 100%;
-    width: 100%;
-}
-
 
 footer {
     color: white;
