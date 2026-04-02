@@ -33,15 +33,15 @@ h1#vid{
 
 #container{
     position: relative;
-    height: 315px;
-    width: 285px;
+    min-height: 315px;
+    max-width: 285px;
 
     background-color: blue;
 }
 
 #conteudo{
     position: absolute;
-        height: 345px;
+    height: 345px;
     width: 315px;
     background-color: chocolate;
     border-radius: 10px;
