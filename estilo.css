@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 
 body {
-    padding: 20px;
+    padding: 10px;
     background: lab(62.96% 4.68 -46.03);
     font: normal 15pt Arial;
     text-align: center;
@@ -10,6 +10,10 @@ body {
 h1#siti{
     font-family: "Bungee Spice", sans-serif;
     font-size: 27px;
+}
+
+#principal{
+    padding-bottom: 10px;
 }
 
 #aud{
@@ -23,8 +27,8 @@ section {                        /* -> Tipo um container */
     background: #edd5b8a8;    /* -> Cor de fundo */
     border-radius: 10px;       /* -> Bordas arredondadas */
     min-width: 350px;         /* -> Largura da caixa */
-    max-width: 600px;
-    padding: 15px;               /* -> Espaçamento em todas as direções */
+    max-width: 500px;
+    padding: 10px;               /* -> Espaçamento em todas as direções */
     margin: auto;             /* -> Centralizar a section (caixa) */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.381);
 }
@@ -36,15 +40,14 @@ h1#vid{
 
 #caixa{
     background-color: blue;
-    height: 200px;
-    min-width: 350px;         /* -> Largura da caixa */
-    max-width: 600px;
-    padding: 5px;
+    width: 315px;
+    /* padding: 5px; */
+    margin: auto;
 }
 
 #conteudo{
     background-color: chartreuse;
-    height: 200px;
+    height: 100%;
     max-width: 250px;
 }
 
