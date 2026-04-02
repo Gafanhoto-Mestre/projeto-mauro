@@ -12,11 +12,18 @@ h1#siti{
     font-size: 27px;
 }
 
+#aud{
+    height: 33px;
+    width: 259px;
+    display: block;
+    margin: auto;
+}
+
 section {                        /* -> Tipo um container */
     background: #edd5b8a8;    /* -> Cor de fundo */
     border-radius: 10px;       /* -> Bordas arredondadas */
-    min-width: 285px;         /* -> Largura da caixa */
-    max-width: 500px;
+    min-width: 350px;         /* -> Largura da caixa */
+    max-width: 600px;
     padding: 15px;               /* -> Espaçamento em todas as direções */
     margin: auto;             /* -> Centralizar a section (caixa) */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.381);
@@ -29,12 +36,16 @@ h1#vid{
 
 #caixa{
     background-color: blue;
-    min-width: 285px;         /* -> Largura da caixa */
-    max-width: 500px;
+    height: 200px;
+    min-width: 350px;         /* -> Largura da caixa */
+    max-width: 600px;
+    padding: 5px;
 }
 
 #conteudo{
-
+    background-color: chartreuse;
+    height: 200px;
+    max-width: 250px;
 }
 
 footer {
