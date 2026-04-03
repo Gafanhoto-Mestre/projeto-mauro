@@ -5,7 +5,9 @@ body {
     background: lab(62.96% 4.68 -46.03);
     font: normal 15pt Arial;
     text-align: center;
+
 }
+
 
 h1#siti{
     font-family: "Bungee Spice", sans-serif;
@@ -14,6 +16,7 @@ h1#siti{
 
 #principal{
     padding-bottom: 10px;
+    text-align: center;
 }
 
 #aud{
@@ -39,16 +42,26 @@ h1#vid{
 }
 
 #caixa{
-    background-color: blue;
+    position: relative;
+    height: 315px;
     width: 315px;
-    /* padding: 5px; */
+    padding: 5px;
     margin: auto;
 }
 
+iframe{
+    aspect-ratio: 16 / 9;
+}
+
 #conteudo{
-    background-color: rgb(255, 0, 76);
-    height: 100%;
+    position: absolute;
     max-width: 250px;
+    aspect-ratio: 16 /9;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
 }
 
 footer {
